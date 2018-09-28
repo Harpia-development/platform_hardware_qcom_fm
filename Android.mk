@@ -34,7 +34,6 @@ LOCAL_CFLAGS += -DFM_SOC_TYPE_CHEROKEE
 endif
 include $(LOCAL_PATH)/jni/Android.mk
 LOCAL_PATH := $(LOCAL_DIR_PATH)
-include $(LOCAL_PATH)/fmapp2/Android.mk
 
 #LOCAL_PATH := $(LOCAL_DIR_PATH)
 #include $(LOCAL_PATH)/FMRecord/Android.mk
